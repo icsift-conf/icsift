@@ -159,8 +159,8 @@ function App() {
           desktopClassName="translate-y-20 relative z-50 fixed bottom-24"
           items={links}
         />
-         <TawkTo className="absolute"/>
-         <WhatsAppButton phoneNumber="+918260080050" />
+         {/* <TawkTo className="absolute"/>
+         <WhatsAppButton phoneNumber="+918260080050" /> */}
       </div>
       <Routes>
         <Route path="/" element={<MainContent coOrganizers={coOrganizers} downloadButtons={downloadButtons} speakers={speakers} date={date} />} />
